@@ -1,3 +1,9 @@
+//  Sudoku.h
+//  SudokuSolver
+//
+//  Created by Pattarapol Koosalapeerom
+//  Copyright © 2016 Pattarapol Koosalapeerom. All rights reserved.
+
 #ifndef SUDOKU_H
 #define SUDOKU_H
 

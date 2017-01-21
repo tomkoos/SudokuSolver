@@ -1,3 +1,9 @@
+//  Node.cpp
+//  SudokuSolver
+//
+//  Created by Pattarapol Koosalapeerom
+//  Copyright © 2016 Pattarapol Koosalapeerom. All rights reserved.
+
 #include "Node.h"
 
 Node::Node()
@@ -13,7 +19,7 @@ void Node::inputNode(int i, int j)
 	for (int i = 1; i <= 9; i++)
 	{
 		char buffer[10];
-		sprintf(buffer,"%d",i);
+		sprintf_s(buffer,"%d",i);
 		data.initUniverse.push_back(buffer[0]);
 	}
 	data.solution = ' ';

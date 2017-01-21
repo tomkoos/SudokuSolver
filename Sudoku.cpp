@@ -1,3 +1,9 @@
+//  Sudoku.cpp
+//  SudokuSolver
+//
+//  Created by Pattarapol Koosalapeerom
+//  Copyright © 2016 Pattarapol Koosalapeerom. All rights reserved.
+
 #include "Sudoku.h"
 
 Sudoku::Sudoku()
@@ -42,7 +48,7 @@ void Sudoku::firstEliminate()
 		for (int i = 1; i <= 9; i++)
 		{
 			char buffer[10];
-			sprintf(buffer,"%d",i);
+			sprintf_s(buffer,"%d",i);
 			if (testSolution(buffer[0], cur->data.loc_i, cur->data.loc_j) == Fail)
 			{
 				for (unsigned int c = 0; c < cur->data.initUniverse.size() ; c++)

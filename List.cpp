@@ -1,3 +1,9 @@
+//  List.cpp
+//  SudokuSolver
+//
+//  Created by Pattarapol Koosalapeerom
+//  Copyright © 2016 Pattarapol Koosalapeerom. All rights reserved.
+
 #include "List.h"
 
 List::List()

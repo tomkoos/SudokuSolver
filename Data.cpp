@@ -1,3 +1,9 @@
+//  Data.cpp
+//  SudokuSolver
+//
+//  Created by Pattarapol Koosalapeerom
+//  Copyright © 2016 Pattarapol Koosalapeerom. All rights reserved.
+
 #include "Data.h"
 
 void Data::setupCurUniverse()

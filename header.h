@@ -1,3 +1,9 @@
+//  header.h
+//  SudokuSolver
+//
+//  Created by Pattarapol Koosalapeerom
+//  Copyright © 2016 Pattarapol Koosalapeerom. All rights reserved.
+
 #ifndef HEADER_H
 #define HEADER_H
 
